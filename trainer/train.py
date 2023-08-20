@@ -15,7 +15,13 @@ from utils import CTCLabelConverter, AttnLabelConverter, Averager
 from dataset import hierarchical_dataset, AlignCollate, Batch_Balanced_Dataset
 from model import Model
 from test import validation
-device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+
+device = 'cuda' if torch.cuda.is_available() else 'cpu'
+
+# set mps device if available
+if torch.backends.mps.is_available():
+    device = 'mps'
+device = torch.device(device)
 
 def count_parameters(model):
     print("Modules, Parameters")
