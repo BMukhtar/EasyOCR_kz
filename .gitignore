@@ -3,6 +3,8 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+trainer/all_data/en_sample/
+
 # C extensions
 *.so
 
