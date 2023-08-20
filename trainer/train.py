@@ -175,6 +175,7 @@ def train(opt, show_number = 2, amp=False):
     while(True):
         # train part
         optimizer.zero_grad(set_to_none=True)
+        print("Step: ", i)
         
         if amp:
             with autocast():
