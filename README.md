@@ -87,11 +87,14 @@ pip install git+https://github.com/JaidedAI/EasyOCR.git
 Custom installation 16.08.2023
 ``` bash
 conda install pytorch::pytorch torchvision torchaudio -c pytorch
-mamba install scipy numpy Pillow scikit-image python-bidi PyYAML Shapely pyclipper ninja
+mamba install scipy numpy Pillow scikit-image python-bidi PyYAML Shapely pyclipper ninja natsort nltk
 pip install opencv-python-headless
+
+wsl remove extra files: cd ~ && find . -name "*:Zone.Identifier" -type f -delete
 ```
 
 Note 1: For Windows, please install torch and torchvision first by following the official instructions here https://pytorch.org. On the pytorch website, be sure to select the right CUDA version you have. If you intend to run on CPU mode only, select `CUDA = None`.
+
 
 Note 2: We also provide a Dockerfile [here](https://github.com/JaidedAI/EasyOCR/blob/master/Dockerfile).
 
