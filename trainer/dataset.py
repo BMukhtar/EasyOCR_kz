@@ -129,6 +129,10 @@ def hierarchical_dataset(root, opt, select_data='/'):
                     break
 
             if select_flag:
+                # check labels csv exist
+                labels_path = os.path.join(dirpath, 'labels.csv')
+                if not os.path.exists(labels_path):
+                    continue
                 dataset = OCRDataset(dirpath, opt)
                 sub_dataset_log = f'sub-directory:\t/{os.path.relpath(dirpath, root)}\t num samples: {len(dataset)}'
                 print(sub_dataset_log)

@@ -29,7 +29,7 @@ def get_config(file_path):
 
 
 def main():
-    opt = get_config("config_files/en_filtered_config.yaml")
+    opt = get_config("config_files/best_accuracy.yaml")
     train(opt, amp=False)
 
 
