@@ -1,0 +1,89 @@
+--------------------------------------------------------------------------------
+dataset_root: ../../PaddleOCR_Mukhtar/train_data/rec/synthtiger/train_more
+opt.select_data: ['images']
+opt.batch_ratio: ['1']
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+dataset_root: ../../PaddleOCR_Mukhtar/train_data/rec/synthtiger/train_more
+opt.select_data: ['images']
+opt.batch_ratio: ['1']
+--------------------------------------------------------------------------------
+dataset_root:    ../../PaddleOCR_Mukhtar/train_data/rec/synthtiger/train_more	 dataset: images
+sub-directory:	/images/4	 num samples: 0
+sub-directory:	/images/9	 num samples: 0
+sub-directory:	/images/8	 num samples: 0
+sub-directory:	/images/2	 num samples: 0
+sub-directory:	/images/7	 num samples: 0
+sub-directory:	/images/5	 num samples: 0
+sub-directory:	/images/0	 num samples: 0
+sub-directory:	/images/1	 num samples: 0
+sub-directory:	/images/3	 num samples: 0
+sub-directory:	/images/6	 num samples: 0
+num total samples of images: 0 x 1.0 (total_data_usage_ratio) = 0
+num samples of images per batch: 32 x 1.0 (batch_ratio) = 32
+--------------------------------------------------------------------------------
+dataset_root: ../../PaddleOCR_Mukhtar/train_data/rec/synthtiger/train_more
+opt.select_data: ['images']
+opt.batch_ratio: ['1']
+--------------------------------------------------------------------------------
+dataset_root:    ../../PaddleOCR_Mukhtar/train_data/rec/synthtiger/train_more	 dataset: images
+sub-directory:	/images/4	 num samples: 4
+sub-directory:	/images/9	 num samples: 6
+sub-directory:	/images/8	 num samples: 3
+sub-directory:	/images/2	 num samples: 6
+sub-directory:	/images/7	 num samples: 3
+sub-directory:	/images/5	 num samples: 3
+sub-directory:	/images/0	 num samples: 4
+sub-directory:	/images/1	 num samples: 2
+sub-directory:	/images/3	 num samples: 7
+sub-directory:	/images/6	 num samples: 4
+num total samples of images: 42 x 1.0 (total_data_usage_ratio) = 42
+num samples of images per batch: 32 x 1.0 (batch_ratio) = 32
+--------------------------------------------------------------------------------
+Total_batch_size: 32 = 32
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+dataset_root: ../../PaddleOCR_Mukhtar/train_data/rec/synthtiger/train_more
+opt.select_data: ['images']
+opt.batch_ratio: ['1']
+--------------------------------------------------------------------------------
+dataset_root:    ../../PaddleOCR_Mukhtar/train_data/rec/synthtiger/train_more	 dataset: images
+sub-directory:	/images/4	 num samples: 4
+sub-directory:	/images/9	 num samples: 6
+sub-directory:	/images/8	 num samples: 3
+sub-directory:	/images/2	 num samples: 6
+sub-directory:	/images/7	 num samples: 3
+sub-directory:	/images/5	 num samples: 3
+sub-directory:	/images/0	 num samples: 4
+sub-directory:	/images/1	 num samples: 2
+sub-directory:	/images/3	 num samples: 7
+sub-directory:	/images/6	 num samples: 4
+num total samples of images: 42 x 1.0 (total_data_usage_ratio) = 42
+num samples of images per batch: 32 x 1.0 (batch_ratio) = 32
+--------------------------------------------------------------------------------
+Total_batch_size: 32 = 32
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+dataset_root: ../../PaddleOCR_Mukhtar/train_data/rec/synthtiger/train_more
+opt.select_data: ['images']
+opt.batch_ratio: ['1']
+--------------------------------------------------------------------------------
+dataset_root:    ../../PaddleOCR_Mukhtar/train_data/rec/synthtiger/train_more	 dataset: images
+sub-directory:	/images/4	 num samples: 9996
+sub-directory:	/images/9	 num samples: 9999
+sub-directory:	/images/8	 num samples: 9997
+sub-directory:	/images/2	 num samples: 9997
+sub-directory:	/images/7	 num samples: 9996
+sub-directory:	/images/5	 num samples: 9997
+sub-directory:	/images/0	 num samples: 9997
+sub-directory:	/images/1	 num samples: 9998
+sub-directory:	/images/3	 num samples: 9995
+sub-directory:	/images/6	 num samples: 9995
+num total samples of images: 99967 x 1.0 (total_data_usage_ratio) = 99967
+num samples of images per batch: 32 x 1.0 (batch_ratio) = 32
+--------------------------------------------------------------------------------
+Total_batch_size: 32 = 32
+--------------------------------------------------------------------------------
+dataset_root:    ../../PaddleOCR_Mukhtar/train_data/rec/synthtiger/test	 dataset: /
+sub-directory:	/images/0	 num samples: 1000
+--------------------------------------------------------------------------------

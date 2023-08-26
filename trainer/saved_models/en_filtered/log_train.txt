@@ -1,0 +1,90 @@
+[100/1000] Train loss: 5.99045, Valid loss: 4.41325, Elapsed_time: 15.38897
+Current_accuracy : 0.000, Current_norm_ED  : 0.0000
+Best_accuracy    : 0.000, Best_norm_ED     : 0.0000
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+Voleibol_Jouvenel         |                           | 0.0005	False
+objective                 |                           | 0.0105	False
+--------------------------------------------------------------------------------
+[200/1000] Train loss: 4.13020, Valid loss: 4.55121, Elapsed_time: 41.60878
+Current_accuracy : 0.000, Current_norm_ED  : 0.0107
+Best_accuracy    : 0.000, Best_norm_ED     : 0.0107
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+Vinding Melodies Naseem   | C                         | 0.0006	False
+Najafi                    | C                         | 0.0168	False
+--------------------------------------------------------------------------------
+[300/1000] Train loss: 3.86232, Valid loss: 4.17134, Elapsed_time: 67.45915
+Current_accuracy : 0.000, Current_norm_ED  : 0.0289
+Best_accuracy    : 0.000, Best_norm_ED     : 0.0289
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+JIS                       | S                         | 0.0017	False
+WCYQ                      | V                         | 0.0000	False
+--------------------------------------------------------------------------------
+[400/1000] Train loss: 3.58443, Valid loss: 3.59714, Elapsed_time: 94.44065
+Current_accuracy : 0.000, Current_norm_ED  : 0.0865
+Best_accuracy    : 0.000, Best_norm_ED     : 0.0865
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+Nadi :                    | D                         | 0.0027	False
+Holiness Fallow           | D                         | 0.0000	False
+--------------------------------------------------------------------------------
+[500/1000] Train loss: 3.26455, Valid loss: 3.36373, Elapsed_time: 120.97604
+Current_accuracy : 0.000, Current_norm_ED  : 0.1060
+Best_accuracy    : 0.000, Best_norm_ED     : 0.1060
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+extremity_MacIntyre Gill { | 5                         | 0.0000	False
+Insane & AQUILION '       | W  A                      | 0.0000	False
+--------------------------------------------------------------------------------
+[600/1000] Train loss: 2.84248, Valid loss: 2.33601, Elapsed_time: 148.47191
+Current_accuracy : 0.567, Current_norm_ED  : 0.2943
+Best_accuracy    : 0.567, Best_norm_ED     : 0.2943
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+[16203] ,                 | 1438                      | 0.0000	False
+Fernandina .              | Ded .                     | 0.0000	False
+--------------------------------------------------------------------------------
+[700/1000] Train loss: 2.20124, Valid loss: 2.83702, Elapsed_time: 175.78535
+Current_accuracy : 0.227, Current_norm_ED  : 0.2936
+Best_accuracy    : 0.567, Best_norm_ED     : 0.2943
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+INTERNALLY generally & Prijuoste | ItD aai 3 Toa             | 0.0000	False
+FREQUENT Niels            | Tiai                      | 0.0000	False
+--------------------------------------------------------------------------------
+[800/1000] Train loss: 1.47506, Valid loss: 1.59268, Elapsed_time: 203.58372
+Current_accuracy : 5.329, Current_norm_ED  : 0.5689
+Best_accuracy    : 5.329, Best_norm_ED     : 0.5689
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+Squad #faint Bangor       | Sooo 77oinE Bongor        | 0.0000	False
+parranda Kuhgir: Leaved   | Parraga Khgir Leae9       | 0.0000	False
+--------------------------------------------------------------------------------
+[900/1000] Train loss: 0.86319, Valid loss: 1.05082, Elapsed_time: 231.51294
+Current_accuracy : 12.812, Current_norm_ED  : 0.7111
+Best_accuracy    : 12.812, Best_norm_ED     : 0.7111
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+631 Kamhlaba              | 631 Kamhlaba              | 0.0476	True
+{Trois}                   | {rois}                    | 0.0063	False
+--------------------------------------------------------------------------------
+[1000/1000] Train loss: 0.49043, Valid loss: 0.34314, Elapsed_time: 259.22240
+Current_accuracy : 51.701, Current_norm_ED  : 0.9155
+Best_accuracy    : 51.701, Best_norm_ED     : 0.9155
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+Improving intoxication    | Improng Mntoacaton        | 0.0000	False
+254                       | 254                       | 0.6412	True
+--------------------------------------------------------------------------------
