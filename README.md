@@ -89,7 +89,9 @@ Custom installation 16.08.2023
 conda install pytorch::pytorch torchvision torchaudio -c pytorch
 mamba install scipy numpy Pillow scikit-image python-bidi PyYAML Shapely pyclipper ninja natsort nltk
 pip install opencv-python-headless
+ pip install pandas 
 
+delete wsl extra files on windows:
 wsl remove extra files: cd ~ && find . -name "*:Zone.Identifier" -type f -delete
 ```
 
