@@ -1,14 +1,14 @@
 number: '0123456789'
 symbol: "!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~ €"
-lang_char: 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzÉéЁЄІЈЉЎАБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдежзийклмнопрстуфхцчшщъыьэюяёђєіјљњћўџҐґӘҒҚҢӨҰҮІәғқңөұүі'
+lang_char: 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzАБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯЁабвгдежзийклмнопрстуфхцчшщъыьэюяёӘҒҚҢӨҰҮІәғқңөұүі'
 experiment_name: 'kz_synthtiger_v1'
 train_data: '../../PaddleOCR_Mukhtar/train_data/rec/synthtiger/train_more'
 valid_data: '../../PaddleOCR_Mukhtar/train_data/rec/synthtiger/test'
 manualSeed: 1111
 workers: 6
-batch_size: 32 #32
-num_iter: 1000
-valInterval: 100
+batch_size: 96 #32
+num_iter: 100000
+valInterval: 500
 saved_model: '' #'saved_models/en_filtered/iter_300000.pth'
 FT: False
 optim: False # default is Adadelta
@@ -25,7 +25,6 @@ batch_max_length: 34
 imgH: 64
 imgW: 600
 rgb: False
-contrast_adjust: False
 sensitive: True
 PAD: True
 contrast_adjust: 0.0
