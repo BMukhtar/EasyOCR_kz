@@ -1,0 +1,39 @@
+--------------------------------------------------------------------------------
+dataset_root: ../../synthtiger_kz/results/train
+opt.select_data: ['images']
+opt.batch_ratio: ['1']
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+dataset_root: ../../synthtiger_kz/results/train
+opt.select_data: ['images']
+opt.batch_ratio: ['1']
+--------------------------------------------------------------------------------
+dataset_root:    ../../synthtiger_kz/results/train	 dataset: images
+sub-directory:	/images/10	 num samples: 8442
+sub-directory:	/images/17	 num samples: 8528
+sub-directory:	/images/4	 num samples: 8496
+sub-directory:	/images/18	 num samples: 8477
+sub-directory:	/images/15	 num samples: 8495
+sub-directory:	/images/9	 num samples: 8526
+sub-directory:	/images/8	 num samples: 8508
+sub-directory:	/images/13	 num samples: 8548
+sub-directory:	/images/16	 num samples: 8474
+sub-directory:	/images/2	 num samples: 8511
+sub-directory:	/images/11	 num samples: 8452
+sub-directory:	/images/12	 num samples: 8435
+sub-directory:	/images/7	 num samples: 8463
+sub-directory:	/images/5	 num samples: 8537
+sub-directory:	/images/0	 num samples: 8473
+sub-directory:	/images/1	 num samples: 8455
+sub-directory:	/images/19	 num samples: 8412
+sub-directory:	/images/3	 num samples: 8440
+sub-directory:	/images/6	 num samples: 8426
+sub-directory:	/images/14	 num samples: 8396
+num total samples of images: 169494 x 1.0 (total_data_usage_ratio) = 169494
+num samples of images per batch: 96 x 1.0 (batch_ratio) = 96
+--------------------------------------------------------------------------------
+Total_batch_size: 96 = 96
+--------------------------------------------------------------------------------
+dataset_root:    ../../synthtiger_kz/results/test	 dataset: /
+sub-directory:	/images/0	 num samples: 2580
+--------------------------------------------------------------------------------

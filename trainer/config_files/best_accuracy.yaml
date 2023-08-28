@@ -7,7 +7,7 @@ valid_data: '../../synthtiger_kz/results/test'
 manualSeed: 1111
 workers: 6
 batch_size: 96 #32
-num_iter: 20000
+num_iter: 50000
 valInterval: 500
 saved_model: '' #'saved_models/en_filtered/iter_300000.pth'
 FT: False
@@ -19,9 +19,9 @@ eps: 0.00000001
 grad_clip: 5
 #Data processing
 select_data: 'images' # this is dataset folder in train_data
-batch_ratio: '1' 
+batch_ratio: '1'
 total_data_usage_ratio: 1.0
-batch_max_length: 34 
+batch_max_length: 34
 imgH: 64
 imgW: 600
 rgb: False
@@ -49,4 +49,4 @@ network_params:
   hidden_size: 256
 lang_list:
   - 'en'
-character_list: 0123456789!"#$%&'()*+,-./:;<=>?@[\]^_`{|}~ €ABCDEFGHIJKLMNOPQRSTUVWXYZӘҒҚҢӨҰҮІabcdefghijklmnopqrstuvwxyzәғқңөұүі
+character_list: 0123456789!"#$%'()*+,-.:;<=>?@[]`{} €АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯЁабвгдежзийклмнопрстуфхцчшщъыьэюяёӘҒҚҢӨҰҮІҺәғқңөұүіһ
