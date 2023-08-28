@@ -1,13 +1,13 @@
 number: '0123456789'
-symbol: "!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~ €"
-lang_char: 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzАБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯЁабвгдежзийклмнопрстуфхцчшщъыьэюяёӘҒҚҢӨҰҮІәғқңөұүі'
-experiment_name: 'kz_synthtiger_v1'
-train_data: '../../PaddleOCR_Mukhtar/train_data/rec/synthtiger/train_more'
-valid_data: '../../PaddleOCR_Mukhtar/train_data/rec/synthtiger/test'
+symbol: "!\"#$%'()*+,-.:;<=>?@[]`{} €"
+lang_char: 'АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯЁабвгдежзийклмнопрстуфхцчшщъыьэюяёӘҒҚҢӨҰҮІҺәғқңөұүіһ'
+experiment_name: 'kz_synthtiger_v2'
+train_data: '../../synthtiger_kz/results/train'
+valid_data: '../../synthtiger_kz/results/test'
 manualSeed: 1111
 workers: 6
 batch_size: 96 #32
-num_iter: 100000
+num_iter: 20000
 valInterval: 500
 saved_model: '' #'saved_models/en_filtered/iter_300000.pth'
 FT: False

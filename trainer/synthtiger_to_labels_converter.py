@@ -3,7 +3,7 @@ from collections import defaultdict
 import pandas as pd
 from tqdm import tqdm
 
-gt_dir = '../../PaddleOCR_Mukhtar/train_data/rec/synthtiger'
+gt_dir = '../../synthtiger_kz/results'
 
 
 def convert(root):
@@ -29,7 +29,7 @@ def convert(root):
 
 
 def main():
-    convert(f'{gt_dir}/train_more')
+    convert(f'{gt_dir}/train')
     convert(f'{gt_dir}/test')
 
 
