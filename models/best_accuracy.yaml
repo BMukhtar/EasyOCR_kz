@@ -1,9 +1,9 @@
 number: '0123456789'
-symbol: "!\"#$%'()*+,-.:;<=>?@[]`{} €"
+symbol: "!'#$%()*+/,-.:;<=>? "
 lang_char: 'АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯЁабвгдежзийклмнопрстуфхцчшщъыьэюяёӘҒҚҢӨҰҮІҺәғқңөұүіһ'
-experiment_name: 'kz_synthtiger_v2'
-train_data: '../../synthtiger_kz/results/train'
-valid_data: '../../synthtiger_kz/results/test'
+experiment_name: 'kz_synthtiger_v3'
+train_data: '../../synthtiger_kz/results/train_v2'
+valid_data: '../../synthtiger_kz/results/test_v2'
 manualSeed: 1111
 workers: 6
 batch_size: 96 #32
@@ -49,4 +49,4 @@ network_params:
   hidden_size: 256
 lang_list:
   - 'en'
-character_list: 0123456789!"#$%'()*+,-.:;<=>?@[]`{} €АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯЁабвгдежзийклмнопрстуфхцчшщъыьэюяёӘҒҚҢӨҰҮІҺәғқңөұүіһ
+character_list: 0123456789!'#$%()*+/,-.:;<=>? АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯЁабвгдежзийклмнопрстуфхцчшщъыьэюяёӘҒҚҢӨҰҮІҺәғқңөұүіһ
