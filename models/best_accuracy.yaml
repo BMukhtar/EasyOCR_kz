@@ -1,14 +1,14 @@
 number: '0123456789'
-symbol: "!'#$%()*+/,-.:;<=>? "
+symbol: "!?.,:;'#()<>+-/*=%$ "
 lang_char: 'АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯЁабвгдежзийклмнопрстуфхцчшщъыьэюяёӘҒҚҢӨҰҮІҺәғқңөұүіһ'
-experiment_name: 'kz_synthtiger_v3'
-train_data: '../../synthtiger_kz/results/train_v2'
-valid_data: '../../synthtiger_kz/results/test_v2'
+experiment_name: 'kz_synthtiger_v4'
+train_data: '../../synthtiger_kz/results/train_v3'
+valid_data: '../../synthtiger_kz/results/test_v3'
 manualSeed: 1111
 workers: 6
 batch_size: 96 #32
-num_iter: 50000
-valInterval: 500
+num_iter: 200000
+valInterval: 1000
 saved_model: '' #'saved_models/en_filtered/iter_300000.pth'
 FT: False
 optim: False # default is Adadelta
@@ -49,4 +49,4 @@ network_params:
   hidden_size: 256
 lang_list:
   - 'en'
-character_list: 0123456789!'#$%()*+/,-.:;<=>? АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯЁабвгдежзийклмнопрстуфхцчшщъыьэюяёӘҒҚҢӨҰҮІҺәғқңөұүіһ
+character_list: 0123456789!?.,:;'#()<>+-/*=%$ АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯЁабвгдежзийклмнопрстуфхцчшщъыьэюяёӘҒҚҢӨҰҮІҺәғқңөұүіһ

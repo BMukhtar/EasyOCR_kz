@@ -1,0 +1,34 @@
+--------------------------------------------------------------------------------
+dataset_root: ../../synthtiger_kz/results/train_v3
+opt.select_data: ['images']
+opt.batch_ratio: ['1']
+--------------------------------------------------------------------------------
+dataset_root:    ../../synthtiger_kz/results/train_v3	 dataset: images
+sub-directory:	/images/10	 num samples: 9798
+sub-directory:	/images/17	 num samples: 9819
+sub-directory:	/images/4	 num samples: 9821
+sub-directory:	/images/18	 num samples: 9796
+sub-directory:	/images/15	 num samples: 9822
+sub-directory:	/images/9	 num samples: 9810
+sub-directory:	/images/8	 num samples: 9801
+sub-directory:	/images/13	 num samples: 9784
+sub-directory:	/images/16	 num samples: 9798
+sub-directory:	/images/2	 num samples: 9806
+sub-directory:	/images/11	 num samples: 9807
+sub-directory:	/images/12	 num samples: 9803
+sub-directory:	/images/7	 num samples: 9779
+sub-directory:	/images/5	 num samples: 9818
+sub-directory:	/images/0	 num samples: 9816
+sub-directory:	/images/1	 num samples: 9782
+sub-directory:	/images/19	 num samples: 9801
+sub-directory:	/images/3	 num samples: 9798
+sub-directory:	/images/6	 num samples: 9805
+sub-directory:	/images/14	 num samples: 9790
+num total samples of images: 196054 x 1.0 (total_data_usage_ratio) = 196054
+num samples of images per batch: 96 x 1.0 (batch_ratio) = 96
+--------------------------------------------------------------------------------
+Total_batch_size: 96 = 96
+--------------------------------------------------------------------------------
+dataset_root:    ../../synthtiger_kz/results/test_v3	 dataset: /
+sub-directory:	/images/0	 num samples: 1965
+--------------------------------------------------------------------------------
