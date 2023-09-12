@@ -255,25 +255,33 @@ def train(opt, show_number = 2, amp=False):
                     torch.save(model.state_dict(), f'./saved_models/{opt.experiment_name}/best_norm_ED.pth')
                 best_model_log = f'{"Best_accuracy":17s}: {best_accuracy:0.3f}, {"Best_norm_ED":17s}: {best_norm_ED:0.4f}'
 
-                loss_model_log = f'{loss_log}\n{current_model_log}\n{best_model_log}'
+                current_lr = optimizer.param_groups[0]['lr']
+                lr_log = f'{"Learning Rate":17s}: {current_lr:0.4f}'
+
+                loss_model_log = f'{loss_log}\n{current_model_log}\n{best_model_log}\n{lr_log}'
                 print(loss_model_log)
                 log.write(loss_model_log + '\n')
 
                 # show some predicted results
                 dashed_line = '-' * 80
-                head = f'{"Ground Truth":25s} | {"Prediction":25s} | Confidence Score & T/F'
+
+                head = f'{"Ground Truth":25s} | {"Prediction mismatch":25s} | Confidence Score'
                 predicted_result_log = f'{dashed_line}\n{head}\n{dashed_line}\n'
-                
-                #show_number = min(show_number, len(labels))
-                
-                start = random.randint(0,len(labels) - show_number )    
-                for gt, pred, confidence in zip(labels[start:start+show_number], preds[start:start+show_number], confidence_score[start:start+show_number]):
+
+                mismatched_samples = []
+                for gt, pred, confidence in zip(labels, preds, confidence_score):
                     if 'Attn' in opt.Prediction:
                         gt = gt[:gt.find('[s]')]
                         pred = pred[:pred.find('[s]')]
 
-                    predicted_result_log += f'{gt:25s} | {pred:25s} | {confidence:0.4f}\t{str(pred == gt)}\n'
+                    if pred != gt:
+                        mismatched_samples.append((gt, pred, confidence))
+
+                top_10_mismatches = sorted(mismatched_samples, key=lambda x: x[2])[:10]
+                for gt, pred, confidence in top_10_mismatches:
+                    predicted_result_log += f'{gt:25s} | {pred:25s} | {confidence:0.4f}\n'
                 predicted_result_log += f'{dashed_line}'
+
                 print(predicted_result_log)
                 log.write(predicted_result_log + '\n')
                 print('validation time: ', time.time()-t1)
