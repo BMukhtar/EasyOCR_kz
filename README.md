@@ -93,6 +93,9 @@ pip install opencv-python-headless
 
 delete wsl extra files on windows:
 wsl remove extra files: cd ~ && find . -name "*:Zone.Identifier" -type f -delete
+
+extract:
+pip list --format=freeze | grep '==' | sed 's/==/~=/' > pip_requirements.txt
 ```
 
 Note 1: For Windows, please install torch and torchvision first by following the official instructions here https://pytorch.org. On the pytorch website, be sure to select the right CUDA version you have. If you intend to run on CPU mode only, select `CUDA = None`.
