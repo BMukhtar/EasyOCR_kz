@@ -6,8 +6,8 @@ train_data: '../../synthtiger_kz/results/train_v6'
 valid_data: '../../synthtiger_kz/results/test_v6'
 manualSeed: 1111
 workers: 6
-batch_size: 96 #32
-num_iter: 200000
+batch_size: 256 #32
+num_iter: 100000
 valInterval: 1000
 saved_model: '' #'saved_models/en_filtered/iter_300000.pth'
 FT: False
