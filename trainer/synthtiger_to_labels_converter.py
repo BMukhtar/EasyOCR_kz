@@ -29,8 +29,8 @@ def convert(root):
 
 
 def main():
-    convert(f'{gt_dir}/train_v4')
-    convert(f'{gt_dir}/test_v4')
+    convert(f'{gt_dir}/train_v6')
+    convert(f'{gt_dir}/test_v6')
 
 
 if __name__ == '__main__':
