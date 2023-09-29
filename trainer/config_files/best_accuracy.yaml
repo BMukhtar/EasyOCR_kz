@@ -6,10 +6,10 @@ train_data: '../../synthtiger_kz/results/train_v6'
 valid_data: '../../synthtiger_kz/results/test_v6'
 manualSeed: 1111
 workers: 6
-batch_size: 256 #32
+batch_size: 64 #32
 num_iter: 100000
 valInterval: 1000
-saved_model: '' #'saved_models/en_filtered/iter_300000.pth'
+saved_model: '../models/best_norm_ED.pth' #'saved_models/en_filtered/iter_300000.pth'
 FT: False
 optim: False # default is Adadelta
 lr: 1.

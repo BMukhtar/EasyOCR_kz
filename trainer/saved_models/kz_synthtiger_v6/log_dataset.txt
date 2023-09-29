@@ -1,0 +1,197 @@
+--------------------------------------------------------------------------------
+dataset_root: ../../synthtiger_kz/results/train_v6
+opt.select_data: ['images']
+opt.batch_ratio: ['1']
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+dataset_root: ../../synthtiger_kz/results/train_v6
+opt.select_data: ['images']
+opt.batch_ratio: ['1']
+--------------------------------------------------------------------------------
+dataset_root:    ../../synthtiger_kz/results/train_v6	 dataset: images
+sub-directory:	/images/10	 num samples: 9850
+sub-directory:	/images/17	 num samples: 9860
+sub-directory:	/images/47	 num samples: 9886
+sub-directory:	/images/4	 num samples: 9877
+sub-directory:	/images/18	 num samples: 9879
+sub-directory:	/images/46	 num samples: 9858
+sub-directory:	/images/15	 num samples: 9866
+sub-directory:	/images/9	 num samples: 9865
+sub-directory:	/images/8	 num samples: 9878
+sub-directory:	/images/33	 num samples: 9876
+sub-directory:	/images/41	 num samples: 9869
+sub-directory:	/images/31	 num samples: 9869
+sub-directory:	/images/13	 num samples: 9851
+sub-directory:	/images/16	 num samples: 9852
+sub-directory:	/images/2	 num samples: 9886
+sub-directory:	/images/11	 num samples: 9862
+sub-directory:	/images/27	 num samples: 9863
+sub-directory:	/images/44	 num samples: 9864
+sub-directory:	/images/39	 num samples: 9877
+sub-directory:	/images/43	 num samples: 9890
+sub-directory:	/images/26	 num samples: 9873
+sub-directory:	/images/30	 num samples: 9877
+sub-directory:	/images/25	 num samples: 9882
+sub-directory:	/images/12	 num samples: 9857
+sub-directory:	/images/35	 num samples: 9878
+sub-directory:	/images/32	 num samples: 9853
+sub-directory:	/images/23	 num samples: 9890
+sub-directory:	/images/29	 num samples: 9881
+sub-directory:	/images/36	 num samples: 9875
+sub-directory:	/images/34	 num samples: 9848
+sub-directory:	/images/37	 num samples: 9862
+sub-directory:	/images/7	 num samples: 9859
+sub-directory:	/images/21	 num samples: 9879
+sub-directory:	/images/5	 num samples: 9888
+sub-directory:	/images/20	 num samples: 9869
+sub-directory:	/images/48	 num samples: 9867
+sub-directory:	/images/42	 num samples: 9864
+sub-directory:	/images/45	 num samples: 9873
+sub-directory:	/images/0	 num samples: 9863
+sub-directory:	/images/22	 num samples: 9880
+sub-directory:	/images/1	 num samples: 9869
+sub-directory:	/images/19	 num samples: 9873
+sub-directory:	/images/49	 num samples: 9885
+sub-directory:	/images/3	 num samples: 9860
+sub-directory:	/images/6	 num samples: 9883
+sub-directory:	/images/28	 num samples: 9869
+sub-directory:	/images/40	 num samples: 9876
+sub-directory:	/images/24	 num samples: 9870
+sub-directory:	/images/38	 num samples: 9878
+sub-directory:	/images/14	 num samples: 9897
+num total samples of images: 493556 x 1.0 (total_data_usage_ratio) = 493556
+num samples of images per batch: 96 x 1.0 (batch_ratio) = 96
+--------------------------------------------------------------------------------
+Total_batch_size: 96 = 96
+--------------------------------------------------------------------------------
+dataset_root:    ../../synthtiger_kz/results/test_v6	 dataset: /
+sub-directory:	/images/0	 num samples: 1971
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+dataset_root: ../../synthtiger_kz/results/train_v6
+opt.select_data: ['images']
+opt.batch_ratio: ['1']
+--------------------------------------------------------------------------------
+dataset_root:    ../../synthtiger_kz/results/train_v6	 dataset: images
+sub-directory:	/images/10	 num samples: 9850
+sub-directory:	/images/17	 num samples: 9860
+sub-directory:	/images/47	 num samples: 9886
+sub-directory:	/images/4	 num samples: 9877
+sub-directory:	/images/18	 num samples: 9879
+sub-directory:	/images/46	 num samples: 9858
+sub-directory:	/images/15	 num samples: 9866
+sub-directory:	/images/9	 num samples: 9865
+sub-directory:	/images/8	 num samples: 9878
+sub-directory:	/images/33	 num samples: 9876
+sub-directory:	/images/41	 num samples: 9869
+sub-directory:	/images/31	 num samples: 9869
+sub-directory:	/images/13	 num samples: 9851
+sub-directory:	/images/16	 num samples: 9852
+sub-directory:	/images/2	 num samples: 9886
+sub-directory:	/images/11	 num samples: 9862
+sub-directory:	/images/27	 num samples: 9863
+sub-directory:	/images/44	 num samples: 9864
+sub-directory:	/images/39	 num samples: 9877
+sub-directory:	/images/43	 num samples: 9890
+sub-directory:	/images/26	 num samples: 9873
+sub-directory:	/images/30	 num samples: 9877
+sub-directory:	/images/25	 num samples: 9882
+sub-directory:	/images/12	 num samples: 9857
+sub-directory:	/images/35	 num samples: 9878
+sub-directory:	/images/32	 num samples: 9853
+sub-directory:	/images/23	 num samples: 9890
+sub-directory:	/images/29	 num samples: 9881
+sub-directory:	/images/36	 num samples: 9875
+sub-directory:	/images/34	 num samples: 9848
+sub-directory:	/images/37	 num samples: 9862
+sub-directory:	/images/7	 num samples: 9859
+sub-directory:	/images/21	 num samples: 9879
+sub-directory:	/images/5	 num samples: 9888
+sub-directory:	/images/20	 num samples: 9869
+sub-directory:	/images/48	 num samples: 9867
+sub-directory:	/images/42	 num samples: 9864
+sub-directory:	/images/45	 num samples: 9873
+sub-directory:	/images/0	 num samples: 9863
+sub-directory:	/images/22	 num samples: 9880
+sub-directory:	/images/1	 num samples: 9869
+sub-directory:	/images/19	 num samples: 9873
+sub-directory:	/images/49	 num samples: 9885
+sub-directory:	/images/3	 num samples: 9860
+sub-directory:	/images/6	 num samples: 9883
+sub-directory:	/images/28	 num samples: 9869
+sub-directory:	/images/40	 num samples: 9876
+sub-directory:	/images/24	 num samples: 9870
+sub-directory:	/images/38	 num samples: 9878
+sub-directory:	/images/14	 num samples: 9897
+num total samples of images: 493556 x 1.0 (total_data_usage_ratio) = 493556
+num samples of images per batch: 96 x 1.0 (batch_ratio) = 96
+--------------------------------------------------------------------------------
+Total_batch_size: 96 = 96
+--------------------------------------------------------------------------------
+dataset_root:    ../../synthtiger_kz/results/test_v6	 dataset: /
+sub-directory:	/images/0	 num samples: 1971
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+dataset_root: ../../synthtiger_kz/results/train_v6
+opt.select_data: ['images']
+opt.batch_ratio: ['1']
+--------------------------------------------------------------------------------
+dataset_root:    ../../synthtiger_kz/results/train_v6	 dataset: images
+sub-directory:	/images/10	 num samples: 9850
+sub-directory:	/images/17	 num samples: 9860
+sub-directory:	/images/47	 num samples: 9886
+sub-directory:	/images/4	 num samples: 9877
+sub-directory:	/images/18	 num samples: 9879
+sub-directory:	/images/46	 num samples: 9858
+sub-directory:	/images/15	 num samples: 9866
+sub-directory:	/images/9	 num samples: 9865
+sub-directory:	/images/8	 num samples: 9878
+sub-directory:	/images/33	 num samples: 9876
+sub-directory:	/images/41	 num samples: 9869
+sub-directory:	/images/31	 num samples: 9869
+sub-directory:	/images/13	 num samples: 9851
+sub-directory:	/images/16	 num samples: 9852
+sub-directory:	/images/2	 num samples: 9886
+sub-directory:	/images/11	 num samples: 9862
+sub-directory:	/images/27	 num samples: 9863
+sub-directory:	/images/44	 num samples: 9864
+sub-directory:	/images/39	 num samples: 9877
+sub-directory:	/images/43	 num samples: 9890
+sub-directory:	/images/26	 num samples: 9873
+sub-directory:	/images/30	 num samples: 9877
+sub-directory:	/images/25	 num samples: 9882
+sub-directory:	/images/12	 num samples: 9857
+sub-directory:	/images/35	 num samples: 9878
+sub-directory:	/images/32	 num samples: 9853
+sub-directory:	/images/23	 num samples: 9890
+sub-directory:	/images/29	 num samples: 9881
+sub-directory:	/images/36	 num samples: 9875
+sub-directory:	/images/34	 num samples: 9848
+sub-directory:	/images/37	 num samples: 9862
+sub-directory:	/images/7	 num samples: 9859
+sub-directory:	/images/21	 num samples: 9879
+sub-directory:	/images/5	 num samples: 9888
+sub-directory:	/images/20	 num samples: 9869
+sub-directory:	/images/48	 num samples: 9867
+sub-directory:	/images/42	 num samples: 9864
+sub-directory:	/images/45	 num samples: 9873
+sub-directory:	/images/0	 num samples: 9863
+sub-directory:	/images/22	 num samples: 9880
+sub-directory:	/images/1	 num samples: 9869
+sub-directory:	/images/19	 num samples: 9873
+sub-directory:	/images/49	 num samples: 9885
+sub-directory:	/images/3	 num samples: 9860
+sub-directory:	/images/6	 num samples: 9883
+sub-directory:	/images/28	 num samples: 9869
+sub-directory:	/images/40	 num samples: 9876
+sub-directory:	/images/24	 num samples: 9870
+sub-directory:	/images/38	 num samples: 9878
+sub-directory:	/images/14	 num samples: 9897
+num total samples of images: 493556 x 1.0 (total_data_usage_ratio) = 493556
+num samples of images per batch: 64 x 1.0 (batch_ratio) = 64
+--------------------------------------------------------------------------------
+Total_batch_size: 64 = 64
+--------------------------------------------------------------------------------
+dataset_root:    ../../synthtiger_kz/results/test_v6	 dataset: /
+sub-directory:	/images/0	 num samples: 1971
+--------------------------------------------------------------------------------
