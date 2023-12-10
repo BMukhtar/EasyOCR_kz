@@ -1,15 +1,15 @@
 number: '0123456789'
 symbol: "!?.,:;'#()<>+-/*=%$»« "
-lang_char: 'АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯЁабвгдежзийклмнопрстуфхцчшщъыьэюяёӘҒҚҢӨҰҮІҺәғқңөұүіһ'
-experiment_name: 'kz_synthtiger_v6'
-train_data: '../../synthtiger_kz/results/train_v6'
-valid_data: '../../synthtiger_kz/results/test_v6'
+lang_char: 'АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯЁабвгдежзийклмнопрстуфхцчшщъыьэюяёӘҒҚҢӨҰҮІҺәғқңөұүіһABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'
+experiment_name: 'kz_synthtiger_v7'
+train_data: '../../synthtiger_kz/results/train_v7'
+valid_data: '../../synthtiger_kz/results/test_v7'
 manualSeed: 1111
 workers: 6
-batch_size: 64 #32
+batch_size: 96 #32
 num_iter: 100000
 valInterval: 1000
-saved_model: '../models/best_norm_ED.pth' #'saved_models/en_filtered/iter_300000.pth'
+saved_model: '' #'saved_models/en_filtered/iter_300000.pth'
 FT: False
 optim: False # default is Adadelta
 lr: 1.
@@ -49,4 +49,4 @@ network_params:
   hidden_size: 256
 lang_list:
   - 'en'
-character_list: 0123456789!?.,:;'#()<>+-/*=%$»« АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯЁабвгдежзийклмнопрстуфхцчшщъыьэюяёӘҒҚҢӨҰҮІҺәғқңөұүіһ
+character_list: 0123456789!?.,:;'#()<>+-/*=%$»« АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯЁабвгдежзийклмнопрстуфхцчшщъыьэюяёӘҒҚҢӨҰҮІҺәғқңөұүіһABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
