@@ -1,0 +1,160 @@
+[
+    {
+        "id": 1,
+        "annotations": [
+            {
+                "id": 1,
+                "completed_by": 1,
+                "result": [
+                    {
+                        "original_width": 1232,
+                        "original_height": 768,
+                        "image_rotation": 0,
+                        "value": {
+                            "x": 5.042656088681193,
+                            "y": 16.736401673640167,
+                            "width": 73.81405205672988,
+                            "height": 15.341701534170156,
+                            "rotation": 0
+                        },
+                        "id": "MhQLfjmSbg",
+                        "from_name": "bbox",
+                        "to_name": "image",
+                        "type": "rectangle",
+                        "origin": "manual"
+                    },
+                    {
+                        "original_width": 1232,
+                        "original_height": 768,
+                        "image_rotation": 0,
+                        "value": {
+                            "x": 5.042656088681193,
+                            "y": 16.736401673640167,
+                            "width": 73.81405205672988,
+                            "height": 15.341701534170156,
+                            "rotation": 0,
+                            "text": [
+                                "Ұлы ақын, ағартушы,"
+                            ]
+                        },
+                        "id": "MhQLfjmSbg",
+                        "from_name": "transcription",
+                        "to_name": "image",
+                        "type": "textarea",
+                        "origin": "manual"
+                    },
+                    {
+                        "original_width": 1232,
+                        "original_height": 768,
+                        "image_rotation": 0,
+                        "value": {
+                            "x": 5.216540781394338,
+                            "y": 36.68061366806137,
+                            "width": 23.03972178449166,
+                            "height": 13.52859135285913,
+                            "rotation": 0
+                        },
+                        "id": "1seZkBs0LK",
+                        "from_name": "bbox",
+                        "to_name": "image",
+                        "type": "rectangle",
+                        "origin": "manual"
+                    },
+                    {
+                        "original_width": 1232,
+                        "original_height": 768,
+                        "image_rotation": 0,
+                        "value": {
+                            "x": 5.216540781394338,
+                            "y": 36.68061366806137,
+                            "width": 23.03972178449166,
+                            "height": 13.52859135285913,
+                            "rotation": 0,
+                            "text": [
+                                "тілінің"
+                            ]
+                        },
+                        "id": "1seZkBs0LK",
+                        "from_name": "transcription",
+                        "to_name": "image",
+                        "type": "textarea",
+                        "origin": "manual"
+                    },
+                    {
+                        "original_width": 1232,
+                        "original_height": 768,
+                        "image_rotation": 0,
+                        "value": {
+                            "x": 4.955713742324621,
+                            "y": 75.73221757322176,
+                            "width": 86.24680758571972,
+                            "height": 15.62064156206415,
+                            "rotation": 0
+                        },
+                        "id": "5c8WFIXzdV",
+                        "from_name": "bbox",
+                        "to_name": "image",
+                        "type": "rectangle",
+                        "origin": "manual"
+                    },
+                    {
+                        "original_width": 1232,
+                        "original_height": 768,
+                        "image_rotation": 0,
+                        "value": {
+                            "x": 4.955713742324621,
+                            "y": 75.73221757322176,
+                            "width": 86.24680758571972,
+                            "height": 15.62064156206415,
+                            "rotation": 0,
+                            "text": [
+                                "Құнанбай өз заманында"
+                            ]
+                        },
+                        "id": "5c8WFIXzdV",
+                        "from_name": "transcription",
+                        "to_name": "image",
+                        "type": "textarea",
+                        "origin": "manual"
+                    }
+                ],
+                "was_cancelled": false,
+                "ground_truth": false,
+                "created_at": "2024-01-01T12:51:22.066816Z",
+                "updated_at": "2024-01-01T12:51:22.066849Z",
+                "draft_created_at": "2024-01-01T12:50:46.349785Z",
+                "lead_time": 45.895,
+                "prediction": {},
+                "result_count": 0,
+                "unique_id": "14e71cdb-4dba-4d0b-ad04-1d34487af57c",
+                "import_id": null,
+                "last_action": null,
+                "task": 1,
+                "project": 1,
+                "updated_by": 1,
+                "parent_prediction": null,
+                "parent_annotation": null,
+                "last_created_by": null
+            }
+        ],
+        "file_upload": "5660f98d-test.png",
+        "drafts": [],
+        "predictions": [],
+        "data": {
+            "ocr": "\/data\/upload\/1\/5660f98d-test.png"
+        },
+        "meta": {},
+        "created_at": "2024-01-01T12:50:30.982528Z",
+        "updated_at": "2024-01-01T12:51:22.254504Z",
+        "inner_id": 1,
+        "total_annotations": 1,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 1,
+        "updated_by": 1,
+        "comment_authors": []
+    }
+]

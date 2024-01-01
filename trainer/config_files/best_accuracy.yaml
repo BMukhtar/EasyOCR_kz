@@ -9,7 +9,7 @@ workers: 6
 batch_size: 96 #32
 num_iter: 100000
 valInterval: 1000
-saved_model: '' #'saved_models/en_filtered/iter_300000.pth'
+saved_model: 'saved_models/kz_synthtiger_v7_comma/best_norm_ED.pth'
 FT: False
 optim: False # default is Adadelta
 lr: 1.
