@@ -1,14 +1,14 @@
 number: '0123456789'
 symbol: "!?.,:;'#()<>+-/*=%$»« "
 lang_char: 'АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯЁабвгдежзийклмнопрстуфхцчшщъыьэюяёӘҒҚҢӨҰҮІҺәғқңөұүіһABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'
-experiment_name: 'kz_synthtiger_v7_comma'
+experiment_name: 'kz_synthtiger_v7_resnet'
 train_data: '../../synthtiger_kz/results/train_v7'
 valid_data: '../../synthtiger_kz/results/test_v7'
 manualSeed: 1111
 workers: 6
 batch_size: 96 #32
 num_iter: 100000
-valInterval: 1000
+valInterval: 100
 saved_model: '' #'saved_models/en_filtered/iter_300000.pth'
 FT: False
 optim: False # default is Adadelta
@@ -22,8 +22,8 @@ select_data: 'images' # this is dataset folder in train_data
 batch_ratio: '1'
 total_data_usage_ratio: 1.0
 batch_max_length: 34
-imgH: 64
-imgW: 600
+imgH: 48
+imgW: 450
 rgb: False
 sensitive: True
 PAD: True
@@ -31,7 +31,7 @@ contrast_adjust: 0.0
 data_filtering_off: False
 # Model Architecture
 Transformation: 'None'
-FeatureExtraction: 'VGG'
+FeatureExtraction: 'ResNet'
 SequenceModeling: 'BiLSTM'
 Prediction: 'CTC'
 num_fiducial: 20
@@ -48,5 +48,5 @@ network_params:
   output_channel: 256
   hidden_size: 256
 lang_list:
-  - 'en'
+  - 'ru'
 character_list: 0123456789!?.,:;'#()<>+-/*=%$»« АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯЁабвгдежзийклмнопрстуфхцчшщъыьэюяёӘҒҚҢӨҰҮІҺәғқңөұүіһABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz

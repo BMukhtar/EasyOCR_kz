@@ -17,7 +17,7 @@ def get_config(file_path):
         characters = ''
         for data in opt['select_data'].split('-'):
             csv_path = os.path.join(opt['train_data'], data, 'labels.csv')
-            df = pd.read_csv(csv_path, sep='^([^,]+),', engine='python', usecols=['filename', 'words'], keep_default_na=False)
+            df = pd.read_csv(csv_path, sep='\t', engine='python', usecols=['filename', 'words'], keep_default_na=False)
             all_char = ''.join(df['words'])
             characters += ''.join(set(all_char))
         characters = sorted(set(characters))

@@ -25,7 +25,7 @@ def convert(root):
     for directory, rows in data.items():
         df = pd.DataFrame(rows, columns=['filename', 'words'])
         csv_filename = f'{root}/{directory}/labels.csv'
-        df.to_csv(csv_filename, index=False)
+        df.to_csv(csv_filename, index=False, sep='\t')
 
 
 def main():
