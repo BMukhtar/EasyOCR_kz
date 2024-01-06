@@ -1,9 +1,9 @@
 number: '0123456789'
 symbol: "!?.,:;'#()<>+-/*=%$»« "
 lang_char: 'АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯЁабвгдежзийклмнопрстуфхцчшщъыьэюяёӘҒҚҢӨҰҮІҺәғқңөұүіһABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'
-experiment_name: 'kz_synthtiger_v7_comma'
-train_data: '../../synthtiger_kz/results/train_v7'
-valid_data: '../../synthtiger_kz/results/test_v7'
+experiment_name: 'kz_synthtiger_v8'
+train_data: '../../synthtiger_kz/results/train_v8'
+valid_data: '../../synthtiger_kz/results/test_v8'
 manualSeed: 1111
 workers: 6
 batch_size: 96 #32
