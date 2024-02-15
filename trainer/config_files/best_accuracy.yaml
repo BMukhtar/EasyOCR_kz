@@ -1,14 +1,14 @@
 number: '0123456789'
 symbol: "!?.,:;'#()<>+-/*=%$»« "
 lang_char: 'АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯЁабвгдежзийклмнопрстуфхцчшщъыьэюяёӘҒҚҢӨҰҮІҺәғқңөұүіһABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'
-experiment_name: 'kz_synthtiger_v9'
-train_data: '../../label-studio-ml-backend/my_ml_backend/kaz_printed_dataset'
-valid_data: '../../label-studio-ml-backend/my_ml_backend/kaz_printed_dataset'
+experiment_name: 'kz_synthtiger_v10'
+train_data: '../../synthtiger_kz/results/train_v9_small'
+valid_data: '../../synthtiger_kz/results/test_v9_small'
 manualSeed: 1111
 workers: 6
 batch_size: 96 #32
 num_iter: 100000
-valInterval: 10
+valInterval: 1000
 saved_model: 'saved_models/kz_synthtiger_v8/best_norm_ED.pth'
 FT: False
 optim: False # default is Adadelta

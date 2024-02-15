@@ -1,0 +1,83 @@
+--------------------------------------------------------------------------------
+dataset_root: ../../synthtiger_kz/results/train_v9_small
+opt.select_data: ['images']
+opt.batch_ratio: ['1']
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+dataset_root: ../../synthtiger_kz/results/train_v9_small
+opt.select_data: ['images']
+opt.batch_ratio: ['1']
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+dataset_root: ../../synthtiger_kz/results/train_v9_small
+opt.select_data: ['images']
+opt.batch_ratio: ['1']
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+dataset_root: ../../synthtiger_kz/results/train_v9_small
+opt.select_data: ['images']
+opt.batch_ratio: ['1']
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+dataset_root: ../../synthtiger_kz/results/train_v9_small
+opt.select_data: ['images']
+opt.batch_ratio: ['1']
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+dataset_root: ../../synthtiger_kz/results/train_v9_small
+opt.select_data: ['images']
+opt.batch_ratio: ['1']
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+dataset_root: ../../synthtiger_kz/results/train_v9_small
+opt.select_data: ['images']
+opt.batch_ratio: ['1']
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+dataset_root: ../../synthtiger_kz/results/train_v9_small
+opt.select_data: ['images']
+opt.batch_ratio: ['1']
+--------------------------------------------------------------------------------
+dataset_root:    ../../synthtiger_kz/results/train_v9_small	 dataset: images
+sub-directory:	/images/4	 num samples: 10000
+sub-directory:	/images/9	 num samples: 10000
+sub-directory:	/images/8	 num samples: 10000
+sub-directory:	/images/2	 num samples: 10000
+sub-directory:	/images/7	 num samples: 10000
+sub-directory:	/images/5	 num samples: 10000
+sub-directory:	/images/0	 num samples: 10000
+sub-directory:	/images/1	 num samples: 10000
+sub-directory:	/images/3	 num samples: 10000
+sub-directory:	/images/6	 num samples: 10000
+num total samples of images: 100000 x 1.0 (total_data_usage_ratio) = 100000
+num samples of images per batch: 96 x 1.0 (batch_ratio) = 96
+--------------------------------------------------------------------------------
+Total_batch_size: 96 = 96
+--------------------------------------------------------------------------------
+dataset_root:    ../../synthtiger_kz/results/test_v9_small	 dataset: /
+sub-directory:	/images/0	 num samples: 2000
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+dataset_root: ../../synthtiger_kz/results/train_v9_small
+opt.select_data: ['images']
+opt.batch_ratio: ['1']
+--------------------------------------------------------------------------------
+dataset_root:    ../../synthtiger_kz/results/train_v9_small	 dataset: images
+sub-directory:	/images/4	 num samples: 10000
+sub-directory:	/images/9	 num samples: 10000
+sub-directory:	/images/8	 num samples: 10000
+sub-directory:	/images/2	 num samples: 10000
+sub-directory:	/images/7	 num samples: 10000
+sub-directory:	/images/5	 num samples: 10000
+sub-directory:	/images/0	 num samples: 10000
+sub-directory:	/images/1	 num samples: 10000
+sub-directory:	/images/3	 num samples: 10000
+sub-directory:	/images/6	 num samples: 10000
+num total samples of images: 100000 x 1.0 (total_data_usage_ratio) = 100000
+num samples of images per batch: 96 x 1.0 (batch_ratio) = 96
+--------------------------------------------------------------------------------
+Total_batch_size: 96 = 96
+--------------------------------------------------------------------------------
+dataset_root:    ../../synthtiger_kz/results/test_v9_small	 dataset: /
+sub-directory:	/images/0	 num samples: 2000
+--------------------------------------------------------------------------------

@@ -663,18 +663,24 @@ def get_paragraph(raw_result, x_ths=1, y_ths=0.5, mode = 'ltr'):
         else:
             current_box_group = [box for box in box_group if box[7]==current_group]
             mean_height = np.mean([box[5] for box in current_box_group])
-            min_gx = min([box[1] for box in current_box_group]) - x_ths*mean_height
-            max_gx = max([box[2] for box in current_box_group]) + x_ths*mean_height
-            min_gy = min([box[3] for box in current_box_group]) - y_ths*mean_height
-            max_gy = max([box[4] for box in current_box_group]) + y_ths*mean_height
+            # min_gx = min([box[1] for box in current_box_group]) - x_ths*mean_height
+            # max_gx = max([box[2] for box in current_box_group]) + x_ths*mean_height
+            # min_gy = min([box[3] for box in current_box_group]) - y_ths*mean_height
+            # max_gy = max([box[4] for box in current_box_group]) + y_ths*mean_height
             add_box = False
-            for box in box_group0:
-                same_horizontal_level = (min_gx<=box[1]<=max_gx) or (min_gx<=box[2]<=max_gx)
-                same_vertical_level = (min_gy<=box[3]<=max_gy) or (min_gy<=box[4]<=max_gy)
-                if same_horizontal_level and same_vertical_level:
-                    box[7] = current_group
-                    add_box = True
-                    break
+
+            for box in current_box_group:
+                min_gx = box[1] - x_ths*mean_height
+                max_gx = box[2] + x_ths*mean_height
+                min_gy = box[3] - y_ths*mean_height
+                max_gy = box[4] + y_ths*mean_height
+                for box in box_group0:
+                    same_horizontal_level = (min_gx<=box[1]<=max_gx) or (min_gx<=box[2]<=max_gx)
+                    same_vertical_level = (min_gy<=box[6]<=max_gy)
+                    if same_horizontal_level and same_vertical_level:
+                        box[7] = current_group
+                        add_box = True
+                        break
             # cannot add more box, go to next group
             if add_box==False:
                 current_group += 1
